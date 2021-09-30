@@ -5,7 +5,7 @@ import NewCKEditor from "./components/NewCKEditor";
 import TinyMCE from "./components/TinyMCE";
 
 function App() {
-  const [view, setView] = useState("home");
+  const [view, setView] = useState("tiny");
 
   return (
     <div className="App">
